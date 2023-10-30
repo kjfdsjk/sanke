@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("./img/Snake_OG-logo.jpg") no-repeat center / cover ;
+    z-index: 1;
+}
+
+#startButton{
+    margin-top: 300px;
+}
+
+#game{
+    display: none;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.color{
+    height: 41px;
+    color: green;
+    background: yellowgreen;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    background: url("./img/a4229a483cf76e0b5458450c2e591ff3.jpg");
+    padding: 0;
+}
+
+#board{
+    background: forestgreen;
+}
+.score{
+    position: absolute;
+    font-size: 35px;
+    margin-left: 25px;
+    right: 11pc;
+    top: 106px;
+}
